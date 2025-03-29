@@ -5,29 +5,29 @@
   <title>About us - The Great Water Rapids</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name="description" content="Discover the story behind The Great Water Rapids! Learn about our mission, history, and how we bring thrilling rafting adventures to life.">
+  <meta name="author" content="Samuel Expósito Ruiz">
 
-  <meta name="author" content="Your Name">
   <!-- Google Fonts (con preconnect) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Link to your external CSS file -->
+  <!-- Link to external CSS -->
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
 
   <!-- Header Section -->
-  <header>
-    <!-- Logo -->
+  <header class="grid-header">
     <img src="images/wwr-logo.png" alt="The Great Water Rapids Logo" class="logo">
-
-    <!-- Navigation -->
+    <h1>The Great Water Rapids</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -36,13 +36,8 @@
 
     <!-- Hero Section -->
     <div class="hero">
-      <!-- Hero Image -->
       <img src="images/hero.jpg" alt="Rafting Hero Image" class="hero-img">
-
-      <!-- Main Title Overlaid on Hero -->
       <h1>The Great Water Rapids</h1>
-
-      <!-- About Article Overlaid on Hero -->
       <article>
         <img src="images/happy-client.jpg" alt="Happy Client" class="client-img">
         <p>
@@ -53,7 +48,7 @@
     </div>
 
     <!-- History Section -->
-    <section>
+    <section class="history">
       <h2>History</h2>
       <p>
         Founded in 1985, The Great Water Rapids started with a single raft and a passion for river adventures.
@@ -63,35 +58,48 @@
     </section>
 
     <!-- Adventure Awaits Section -->
-    <section>
+    <section class="adventures">
       <h2>Adventure Awaits You!</h2>
-      <!-- Five rafting images -->
-      <img src="images/rafting1.jpg" alt="Rafting 1">
-      <img src="images/rafting2.jpg" alt="Rafting 2">
-      <img src="images/rafting3.jpg" alt="Rafting 3">
-      <img src="images/rafting4.jpg" alt="Rafting 4">
-      <img src="images/rafting5.jpg" alt="Rafting 5">
+      <figure>
+        <img src="images/rafting1.jpg" alt="Los Dientes del Diablo">
+        <figcaption>Los Dientes del Diablo</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting2.jpg" alt="Big Mallard">
+        <figcaption>Big Mallard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting3.jpg" alt="Half Day Adventure">
+        <figcaption>Half Day Adventure</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting4.jpg" alt="Full Day Adventure">
+        <figcaption>Full Day Adventure</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rafting5.jpg" alt="Family Fun">
+        <figcaption>Family Fun</figcaption>
+      </figure>
     </section>
 
   </main>
 
   <!-- Footer Section -->
   <footer>
-    <p>
-      &copy; 2023 The Great Water Rapids | Created by Samuel Expósito
-    </p>
-
-    <!-- Social Media Icons -->
-    <a href="https://facebook.com" target="_blank">
-      <img src="images/facebook.png" alt="Facebook">
-    </a>
-    <a href="https://twitter.com" target="_blank">
-      <img src="images/twitter.png" alt="Twitter">
-    </a>
-    <a href="https://instagram.com" target="_blank">
-      <img src="images/instagram.png" alt="Instagram">
-    </a>
+    <p>&copy; 2023 The Great Water Rapids | Created by Samuel Expósito</p>
+    <div class="socials">
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="images/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+    </div>
   </footer>
 
 </body>
 </html>
+
