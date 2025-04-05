@@ -355,6 +355,11 @@ footer a img {
   background-color: var(--primary-color);
 }
 
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 
 
 
