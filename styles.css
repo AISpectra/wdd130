@@ -1,7 +1,7 @@
 
 
   nav {
-    background-color: steelblue;
+    background-color: #1c5d99;
     padding: 10px;
   }
   
@@ -23,6 +23,7 @@
   main {
     max-width: 840px;
     margin: auto;
+    text-align: center; /* <-- AÑADE ESTO */
   }
   aside {
     width: 300px;
@@ -38,6 +39,7 @@
   }
   main img {
     width: 150px;
+    margin: 20px auto;
     height: auto;
   }
   p {
